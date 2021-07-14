@@ -37,7 +37,7 @@ export default function NASAphoto() {
         )}
         <div>
           <h1>{photoData.title}</h1>
-          <p className="date">{photoData.date}</p>
+          <p className="date">Photo of the day: {photoData.date}</p>
           <p className="explanation">{photoData.explanation}</p>
         </div>
       </div>
