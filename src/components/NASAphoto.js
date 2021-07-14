@@ -21,7 +21,7 @@ export default function NASAphoto() {
   return (
     <>
       <NavBar />
-      <div>
+      <div className="nasa-photo">
         {photoData.media_type === "image" ? (
           <img src={photoData.url} alt={photoData.title} />
         ) : (
@@ -31,15 +31,14 @@ export default function NASAphoto() {
             frameBorder="0"
             //gesture="media"
             allow="encrypted-media"
-            //allow="encrypted-media"
             allowFullScreen
             className="photo"
           />
         )}
         <div>
           <h1>{photoData.title}</h1>
-          <p>{photoData.date}</p>
-          <p>{photoData.explanation}</p>
+          <p className="date">{photoData.date}</p>
+          <p className="explanation">{photoData.explanation}</p>
         </div>
       </div>
     </>
