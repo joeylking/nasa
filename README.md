@@ -4,7 +4,7 @@ This is a single page React app that uses the NASA open API to display the APOD.
 
 ## Tech Used
 
-This is a very simple app using a couple of hooks and react router for navigation.
+This is a very simple app using a couple of hooks, useState and useEffect, and react router for navigation.
 
 ### Starfield
 
